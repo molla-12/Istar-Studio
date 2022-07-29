@@ -145,7 +145,7 @@
                 <a class="btn btn btn-warning"><i class="fa-brands fa-github"></i></a>
                 <a class="btn btn btn-warning"><i class="fa-solid fa-envelope"></i><a>
             </div>
-            <p>&copy;2022. All right reserved Studio | <span class="text-warning p-0"> Design By Istar Studio</span></p>
+            <p>&copy;2022. All right reserved Istar Studio | <span class="text-warning p-0"> Design By Istar Studio</span></p>
             <p>Contact US</p>
             <div>
                 <p><i class="fa fa-map-marker"></i> Addis ababa </p>
