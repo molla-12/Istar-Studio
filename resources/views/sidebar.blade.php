@@ -75,7 +75,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="{{ 'dashboared' }}">
+                    <a href="{{ route('Dashboared.index') }}">
                         <i class="fas fa-tachometer-alt"></i>
                         Dashboared
                     </a>
@@ -85,7 +85,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ __('home') }}">
+                    <a href="{{ route('home.index') }}">
                         <i class="fa fa-list"></i>
                         User List
                     </a>

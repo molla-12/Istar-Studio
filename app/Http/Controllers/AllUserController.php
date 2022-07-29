@@ -24,7 +24,7 @@ class AllUserController extends Controller
         ]);
     }
 
-    protected function Create(Request $request)
+    protected function store(Request $request)
     {
         AllUser::create([
             'firstname' => $request['firstname'],

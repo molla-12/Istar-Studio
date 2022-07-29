@@ -11,14 +11,11 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::post('delete/{id}', [HomeController::class, 'Delete']);
-Route::post('/edit', [HomeController::class, 'update']);
-
-Route::get('/dashboared', [ChartController::class, 'index'])->name('Dashboared');
+Route::resource('home', HomeController::class);
+Route::resource('Dashboared', ChartController::class);
+Route::resource('userRegister', AllUserController::class);
 
 Route::get('/HomeM', function () {return view('HomeContent');});
 Route::get('/sidebar', function () {return view('sidebar');});
 Route::get('/user-registration', function () {return view('UserRegistration');});
-Route::post('/userRegister', [AllUserController::class, 'create']);
 Route::get('/profile', function () {return view('Profile');});
